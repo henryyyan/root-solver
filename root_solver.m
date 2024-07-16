@@ -1,4 +1,4 @@
-function [root, info] = modifiedzeroin3038415876(func, Int, params)
+function [root, info] = root_solver(func, Int, params)
     % Check if the initial interval has a sign change
     info = struct;
     info.flag = 0;
